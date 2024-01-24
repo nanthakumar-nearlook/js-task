@@ -1,0 +1,52 @@
+<script>
+    //boolean
+let isEligible = true;
+
+if (isEligible) {
+    console.log("You are eligible.");
+} else {
+    console.log("You are not eligible.");
+}
+
+
+let x = 0;
+let y = 8;
+
+if (x > 10 && y > 0) {
+    console.log("Both x and y are positive.");
+}
+else if (x < 10 || y < 10) {
+    console.log("Either x or y is negative.");
+}
+
+if (!(x > 0)) {
+    console.log("x is not positive.");
+}
+
+
+let Condition = true;
+let count = 0;
+
+while (Condition) {
+    console.log("Loop iteration:", count);
+    count++;
+
+
+    if (count >= 5) {
+        Condition = false;
+    }
+}
+
+console.log("Loop finished.");
+
+
+
+function isEven(number) {
+    return number % 2 == 0;
+}
+
+let result = isEven(10);
+console.log(result); 
+
+
+</script>
